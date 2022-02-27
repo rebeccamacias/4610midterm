@@ -9,7 +9,7 @@ export const Question3 = () => {
   useEffect(async () => {
     const { transactions } = await api.get('/transactions');
     setTransactions(transactions);
-  })
+  }, []);
 
   return (
     <div className="flex-1">
