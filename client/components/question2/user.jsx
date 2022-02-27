@@ -1,5 +1,5 @@
 
-export const User = ({ user, isAdmin }) => {
+export const User = ({ user }) => {
     if (user.isAdmin == true) {
         return (
             <div key={user.id}>

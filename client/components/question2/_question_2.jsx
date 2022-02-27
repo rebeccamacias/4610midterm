@@ -15,7 +15,7 @@ export const Question2 = () => {
     <div className="flex-1">
       {users.map((user) => (
         <div key={user.id} className="border-2 rounded p-4">
-          <User user={user} isAdmin={user.isAdmin}></User>
+          <User user={user}></User>
         </div>
       ))}
     </div>
