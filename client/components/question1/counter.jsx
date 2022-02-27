@@ -13,7 +13,6 @@ export const Counter = ({ min, max }) => {
         if (displayed == max) {
             return;
         } else {
-            console.log('plussing');
             setDisplayed(displayed + 1);
         }
     }
@@ -22,7 +21,6 @@ export const Counter = ({ min, max }) => {
         if (displayed == min) {
             return;
         } else {
-            console.log('minussing')
             setDisplayed(displayed - 1);
         }
     }
